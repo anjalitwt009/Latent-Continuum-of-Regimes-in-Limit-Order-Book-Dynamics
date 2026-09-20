@@ -1,6 +1,6 @@
 # Year-specific OU heterogeneity
 
-| Duration (seconds) | Scope | θ (per window) | Half-life (windows) | μ (stress-index units) | σ (stress-index units) | AR(1) R² |
+| Duration (seconds) | Scope | θ (per window) | Half-life (windows) | μ | σ | AR(1) R² |
 |---:|---|---:|---:|---:|---:|---:|
 | 30 | Pooled | 0.0639 | 10.84 | −0.0697 | 2.0322 | 0.8819 |
 | 30 | 2022 | 0.0499 | 13.88 | 2.5105 | 2.8946 | 0.9070 |
