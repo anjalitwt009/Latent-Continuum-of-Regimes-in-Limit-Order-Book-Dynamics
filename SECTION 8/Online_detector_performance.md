@@ -2,7 +2,7 @@
 
 Each cell reports values for 30 / 45 / 60-second durations.
 
-| Detector | Best F1 (unitless) | Recall (unitless) | Precision (unitless) | AUC-PR (unitless) | Mean delay (days) |
+| Detector | Best F1 | Recall | Precision | AUC-PR | Mean delay (days) |
 |---|---:|---:|---:|---:|---:|
 | BOCPD | 0.499 / 0.490 / 0.498 | 0.480 / 0.680 / 0.520 | 0.519 / 0.383 / 0.477 | 0.306 / 0.311 / 0.300 | 0.14 / 0.17 / 0.13 |
 | CUSUM | 0.136 / 0.141 / 0.140 | 0.240 / 0.200 / 0.320 | 0.095 / 0.108 / 0.089 | 0.021 / 0.022 / 0.021 | 0.00 / 0.00 / 0.00 |
