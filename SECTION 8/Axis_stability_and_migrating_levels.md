@@ -3,7 +3,7 @@
 Pair rows report adjacent-year PC1 cosine; year rows report stress level and
 VSTOXX. Minus signs denote negative values.
 
-| Duration | Pair or year | Axis cosine | Stress level | VSTOXX |
+| Duration (s) | Pair or year | Axis cosine | Stress level | VSTOXX |
 |---:|---|---:|---:|---:|
 | 30 | 2022→23 | 0.8586 | — | — |
 | 30 | 2023→24 | 0.9519 | — | — |
