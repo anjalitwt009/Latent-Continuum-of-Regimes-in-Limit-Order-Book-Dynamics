@@ -3,7 +3,7 @@
 Entries are test economic NMI; hold requires test/train NMI ≥ 0.60. The
 2022→2023 split fails under both metrics at every duration.
 
-| Duration | Train→test | AI test NMI | LE test NMI | AI / LE hold |
+| Duration (s) | Train→test | AI test NMI | LE test NMI | AI / LE hold |
 |---:|---|---:|---:|---|
 | 30 | 2022–23→2024–25 | 0.0844 | 0.0767 | Yes / Yes |
 | 30 | 2022–24→2025 | 0.0409 | 0.0662 | Yes / Yes |
