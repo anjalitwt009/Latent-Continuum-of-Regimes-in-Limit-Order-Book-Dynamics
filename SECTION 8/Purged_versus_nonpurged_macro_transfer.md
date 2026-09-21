@@ -5,7 +5,7 @@ Non-purged estimates reuse the single-fit hierarchy, so the columns are a
 sensitivity comparison rather than a controlled difference. "ns" denotes not
 significant. Minus signs denote negative values.
 
-| Duration | Metric | Fold | Purged ΔR² | Non-purged ΔR² |
+| Duration (s) | Metric | Fold | Purged ΔR² | Non-purged ΔR² |
 |---:|---|---|---|---:|
 | 30 | LE | wf_2023 | 0.0059 | 0.0500 |
 | 30 | LE | wf_2024 | 0.0527 | 0.0521 |
