@@ -3,7 +3,7 @@
 One-day embargo; 95% day-block bootstrap intervals. This is the primary
 granularity-transfer table. Minus signs denote negative values.
 
-| Duration | Metric | Tier | Bands | ΔR² | 95% interval | Sig. |
+| Duration (s) | Metric | Tier | Bands (count) | ΔR² | 95% interval | Sig. |
 |---:|---|---|---:|---:|---|---|
 | 30 | LE | MACRO | 4 | 0.0292 | [0.0239, 0.0350] | + |
 | 30 | LE | MACRO-SUB | 8 | 0.0116 | [0.0067, 0.0166] | + |
