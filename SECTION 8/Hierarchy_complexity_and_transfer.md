@@ -3,7 +3,7 @@
 Single chronological-halves split. ΔR² is combined minus persistence OOS R².
 Minus signs denote negative values.
 
-| Metric | Tier | Bands | Train η² | OOS ΔR² | Stability ARI | Median leaf |
+| Metric | Tier | Bands (count) | Train η² | OOS ΔR² | Stability ARI | Median leaf (count) |
 |---|---|---:|---:|---:|---:|---:|
 | AI | MACRO | 4 | 0.061 | 0.011 | 0.880 | 215,082 |
 | AI | MACRO-SUB | 8 | 0.157 | −0.031 | 0.792 | 102,275 |
