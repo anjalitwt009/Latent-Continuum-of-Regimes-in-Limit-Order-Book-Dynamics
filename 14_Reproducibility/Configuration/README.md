@@ -1,3 +1,0 @@
-# Configuration
-
-Materials for **Configuration**.

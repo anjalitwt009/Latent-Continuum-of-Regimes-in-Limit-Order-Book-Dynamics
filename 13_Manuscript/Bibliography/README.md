@@ -1,3 +1,0 @@
-# Bibliography
-
-Materials for **Bibliography**.

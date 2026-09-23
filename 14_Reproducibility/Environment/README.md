@@ -1,3 +1,0 @@
-# Environment
-
-Materials for **Environment**.
