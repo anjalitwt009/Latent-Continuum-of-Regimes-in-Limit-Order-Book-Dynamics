@@ -1,7 +1,5 @@
 # Realised-variation quantities and forecast-horizon specification.
 
-**Source label:** `tab:app_forecast_targets`
-
 | Quantity | Definition | Role |
 | --- | --- | --- |
 | Realised variance and volatility | $\mathrm{RV}_t=\sum_i r_i^2$ and $\mathrm{RVol}_t=\sqrt{\mathrm{RV}_t}$, using within-session log-mid-price returns with the first session return set to zero | Forecast target and persistence benchmark |

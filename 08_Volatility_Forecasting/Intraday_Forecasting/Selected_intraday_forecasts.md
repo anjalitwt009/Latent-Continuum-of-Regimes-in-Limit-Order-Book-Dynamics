@@ -1,7 +1,5 @@
 # Selected LE-SVR intraday forecast results. $\Delta R^2$ is relative to the cell-specific persistence forecast.
 
-**Source label:** `tab:forecast_map`
-
 |  | 30 s covariance |  | 45 s covariance |  | 60 s covariance |  |
 | --- | --- | --- | --- | --- | --- | --- |
 | Horizon | $R^2$ | $\Delta R^2$ | $R^2$ | $\Delta R^2$ | $R^2$ | $\Delta R^2$ |

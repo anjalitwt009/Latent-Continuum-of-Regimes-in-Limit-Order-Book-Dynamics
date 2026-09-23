@@ -1,7 +1,5 @@
 # Comparison of Log-Euclidean and affine-invariant covariance geometry.
 
-**Source label:** `tab:app_geometry_comparison`
-
 | Property | Log-Euclidean (LE) | Affine-invariant (AI) |
 | --- | --- | --- |
 | Distance | $\|\log\Sigma_t-\log\Sigma_u\|_F$; Equation `eq:method_dle` | $\|\log(\Sigma_t^{-1/2}\Sigma_u\Sigma_t^{-1/2})\|_F =\{\sum_j\log^2\gamma_{j,t,u}\}^{1/2}$; Equation `eq:method_dai` |

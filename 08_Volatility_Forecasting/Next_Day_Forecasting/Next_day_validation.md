@@ -1,7 +1,5 @@
 # Next-day permutation and Mincer-Zarnowitz validation summary.
 
-**Source label:** `tab:nextday_validation`
-
 | Duration | Metric | Full<br>$R^2$ | Permuted<br>$R^2$ | Drop | Survives | MZ<br>$a$ | MZ<br>$b$ | Joint<br>$p$ |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 30 s | LE | 0.8374 | 0.8288 | $+0.0087$ | Yes | 0.00129 | 0.8866 | $<0.001$ |

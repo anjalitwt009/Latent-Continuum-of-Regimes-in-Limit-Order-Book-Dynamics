@@ -1,7 +1,5 @@
 # Year-specific headline intraday forecast performance.
 
-**Source label:** `tab:year_specific_intraday`
-
 | Duration | Horizon and<br>metric/model | 2023 | 2024 | 2025 |
 | --- | --- | --- | --- | --- |
 | 30 s | 10 min, LE/SVR | 0.7803 / 0.1711 | 0.5904 / 0.0764 | 0.5931 / 0.0341 |

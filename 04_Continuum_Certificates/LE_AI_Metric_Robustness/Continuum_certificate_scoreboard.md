@@ -1,7 +1,5 @@
 # Continuum evidence, certificate scoreboard, and metric robustness.
 
-**Source label:** `tab:continuum_scoreboard`
-
 | Certificate or measure | Acceptance rule | 30 s | 45 s | 60 s |
 | --- | --- | --- | --- | --- |
 | Clean windows | - | 837,890 | 559,261 | 419,493 |

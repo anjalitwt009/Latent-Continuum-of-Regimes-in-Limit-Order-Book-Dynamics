@@ -1,7 +1,5 @@
 # Hierarchy complexity and transfer at 30 seconds. "Single split" uses the chronological half split; "pooled WF" concatenates expanding-year test losses before block bootstrap.
 
-**Source label:** `tab:hierarchy`
-
 | Metric | Tier | Bands | $\eta^2$ single | $\Delta R^2$ single | $\Delta R^2$ pooled WF |
 | --- | --- | --- | --- | --- | --- |
 | LE | Macro | 4 | 0.0861 | 0.0391 | 0.02919 |

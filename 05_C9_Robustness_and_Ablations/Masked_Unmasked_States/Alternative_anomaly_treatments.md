@@ -1,7 +1,5 @@
 # Economic NMI under alternative anomaly treatments.
 
-**Source label:** `tab:alternative_anomaly_strategies`
-
 | Treatment | 30 s | 45 s | 60 s |
 | --- | --- | --- | --- |
 | A: hard deletion | 0.0611 / 0.0468 | 0.0670 / 0.0654 | 0.0767 / 0.0732 |

@@ -1,7 +1,5 @@
 # Fixed-order event-level variables used to construct each covariance state.
 
-**Source label:** `tab:app_covariance_feature_inventory`
-
 | # | Variable | Description | Group |
 | --- | --- | --- | --- |
 | 1 | `bid_price_1` | Best bid price (L1) | Price |

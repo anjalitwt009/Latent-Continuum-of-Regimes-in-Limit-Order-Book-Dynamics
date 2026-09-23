@@ -1,7 +1,5 @@
 # Composition of the 143-variable window store by feature family.
 
-**Source label:** `tab:app_window_feature_families`
-
 | Family | # | Examples |
 | --- | --- | --- |
 | Order flow/imbalance | 29 | `ofi_window`, `imbal_1-10`, `price_pressure_mean`, `vpin_proxy` |
@@ -18,4 +16,4 @@
 | Jump measures | 3 | `jump_component`, `jump_flag`, `jump_ratio` |
 | Total | 143 |  |
 
-> **Note.** Counts are mutually exclusive and sum to 143. These window-level variables support anomaly detection, forecasting targets, and validation; they do not enter $\Sigma_t$ directly. Table \ref{tab:app_covariance_feature_inventory} separately identifies the 15 raw event-level covariance inputs, including any similarly named analogues.
+> **Note.** Counts are mutually exclusive and sum to 143. These window-level variables support anomaly detection, forecasting targets, and validation; they do not enter $\Sigma_t$ directly. The covariance feature inventory separately identifies the 15 raw event-level covariance inputs, including any similarly named analogues.

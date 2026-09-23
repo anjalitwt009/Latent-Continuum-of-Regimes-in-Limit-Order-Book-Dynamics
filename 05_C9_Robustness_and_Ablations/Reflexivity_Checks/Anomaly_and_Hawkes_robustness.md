@@ -1,7 +1,5 @@
 # Anomaly-treatment materiality and Hawkes robustness.
 
-**Source label:** `tab:anomaly_hawkes_robustness`
-
 | Duration | LE<br>spread | AI<br>spread | Mean<br>$n$ | $\mathrm{corr}$<br>$(n,\mathrm{VSTOXX})$ | LE $n$<br>spread | AI $n$<br>spread | Verdict |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 30 s | 0.0298 | 0.0380 | 0.4417 | 0.1631 | 0.0318 | 0.0138 | Pass / negative |

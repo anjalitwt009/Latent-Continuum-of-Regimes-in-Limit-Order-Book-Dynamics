@@ -1,7 +1,5 @@
 # Masked-unmasked LE/AI foundation reversal. The operating minimum has a 0.9 certification threshold.
 
-**Source label:** `tab:mask_reversal`
-
 | Duration | Sample | Operating minimum | Drift correlation | Status |
 | --- | --- | --- | --- | --- |
 | 30 s | Unmasked | 0.8778 | 0.7932 | Not certified |

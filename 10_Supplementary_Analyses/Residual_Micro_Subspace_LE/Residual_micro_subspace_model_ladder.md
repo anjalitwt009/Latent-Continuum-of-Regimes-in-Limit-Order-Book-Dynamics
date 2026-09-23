@@ -1,7 +1,5 @@
 # Supplementary continuous micro-subspace model ladder.
 
-**Source label:** `tab:micro_subspace_pooled`
-
 | Duration | M0<br>$R^2$ | M1<br>$R^2$ | M2<br>$R^2$ | Macro<br>$\Delta R^2$ | Micro<br>$\Delta R^2$ | Micro 95%<br>interval | Significant |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 30 s | $-0.0886$ | 0.0123 | 0.0340 | 0.1010 | 0.0216 | [0.0118, 0.0299] | Yes |

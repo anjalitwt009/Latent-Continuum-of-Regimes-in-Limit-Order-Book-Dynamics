@@ -1,7 +1,5 @@
 # Canonical analysis choices and their paired checks.
 
-**Source label:** `tab:app_canonical`
-
 | Object | Canonical choice | Paired or qualifying check |
 | --- | --- | --- |
 | Windowing | Native 30/45/60 s | Cross-duration agreement |

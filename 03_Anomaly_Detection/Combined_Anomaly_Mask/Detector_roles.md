@@ -1,7 +1,5 @@
 # Anomaly-detection components and their roles in state selection.
 
-**Source label:** `tab:detector_roles`
-
 | Component | Research use | Status |
 | --- | --- | --- |
 | M1: Tick-validity guard | Prevents invalid ticks from contaminating the one-second series used by MDI. | Pre-filter |

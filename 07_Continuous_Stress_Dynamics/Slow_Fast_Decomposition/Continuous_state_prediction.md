@@ -1,7 +1,5 @@
 # Continuous-state validity and best-timescale predictive performance.
 
-**Source label:** `tab:continuous_state_prediction`
-
 ## Panel A: State validity and persistence
 
 | Duration | Windows | PC1<br>fraction | Corr.<br>VSTOXX | Pearson<br>next RV | Spearman<br>next RV | Lag-1 AC /<br>decay HL |
