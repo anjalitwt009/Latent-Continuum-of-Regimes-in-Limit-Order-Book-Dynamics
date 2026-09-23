@@ -1,4 +1,4 @@
-# Table 09: Continuous-state validity and best-timescale predictive performance.
+# Continuous-state validity and best-timescale predictive performance.
 
 **Source label:** `tab:continuous_state_prediction`
 

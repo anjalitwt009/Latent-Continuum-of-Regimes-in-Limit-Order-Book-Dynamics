@@ -1,4 +1,4 @@
-# Table 06: Economic NMI under alternative anomaly treatments.
+# Economic NMI under alternative anomaly treatments.
 
 **Source label:** `tab:alternative_anomaly_strategies`
 

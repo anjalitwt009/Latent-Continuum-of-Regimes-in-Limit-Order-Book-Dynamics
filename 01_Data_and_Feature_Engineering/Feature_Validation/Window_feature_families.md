@@ -1,4 +1,4 @@
-# Table A4: Composition of the 143-variable window store by feature family.
+# Composition of the 143-variable window store by feature family.
 
 **Source label:** `tab:app_window_feature_families`
 

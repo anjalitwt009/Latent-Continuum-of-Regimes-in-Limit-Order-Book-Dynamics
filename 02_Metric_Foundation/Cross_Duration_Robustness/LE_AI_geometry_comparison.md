@@ -1,4 +1,4 @@
-# Table A2: Comparison of Log-Euclidean and affine-invariant covariance geometry.
+# Comparison of Log-Euclidean and affine-invariant covariance geometry.
 
 **Source label:** `tab:app_geometry_comparison`
 

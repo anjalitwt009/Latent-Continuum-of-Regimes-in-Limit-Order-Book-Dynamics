@@ -1,4 +1,4 @@
-# Table A1: Canonical analysis choices and their paired checks.
+# Canonical analysis choices and their paired checks.
 
 **Source label:** `tab:app_canonical`
 

@@ -1,4 +1,4 @@
-# Table 03: Native-grid sample, detector, and economic validation. The economic lift compares the realised-volatility tail probability in the highest combined-score decile with its unconditional 10% rate.
+# Native-grid sample, detector, and economic validation. The economic lift compares the realised-volatility tail probability in the highest combined-score decile with its unconditional 10% rate.
 
 **Source label:** `tab:sample_gate`
 

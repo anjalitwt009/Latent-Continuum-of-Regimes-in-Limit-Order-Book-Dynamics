@@ -1,4 +1,4 @@
-# Table 04: Masked-unmasked LE/AI foundation reversal. The operating minimum has a 0.9 certification threshold.
+# Masked-unmasked LE/AI foundation reversal. The operating minimum has a 0.9 certification threshold.
 
 **Source label:** `tab:mask_reversal`
 

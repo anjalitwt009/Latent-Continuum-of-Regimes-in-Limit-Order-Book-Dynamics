@@ -1,4 +1,4 @@
-# Table D1: Realised-variation quantities and forecast-horizon specification.
+# Realised-variation quantities and forecast-horizon specification.
 
 **Source label:** `tab:app_forecast_targets`
 

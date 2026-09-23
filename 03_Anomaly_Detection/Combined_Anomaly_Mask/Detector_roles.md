@@ -1,4 +1,4 @@
-# Table 01: Anomaly-detection components and their roles in state selection.
+# Anomaly-detection components and their roles in state selection.
 
 **Source label:** `tab:detector_roles`
 

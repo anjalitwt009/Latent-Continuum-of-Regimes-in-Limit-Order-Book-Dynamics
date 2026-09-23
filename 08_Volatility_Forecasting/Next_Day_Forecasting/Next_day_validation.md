@@ -1,4 +1,4 @@
-# Table 13: Next-day permutation and Mincer-Zarnowitz validation summary.
+# Next-day permutation and Mincer-Zarnowitz validation summary.
 
 **Source label:** `tab:nextday_validation`
 

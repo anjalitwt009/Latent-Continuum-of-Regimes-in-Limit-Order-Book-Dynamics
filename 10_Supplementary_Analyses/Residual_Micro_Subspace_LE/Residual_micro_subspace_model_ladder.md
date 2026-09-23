@@ -1,4 +1,4 @@
-# Table 10: Supplementary continuous micro-subspace model ladder.
+# Supplementary continuous micro-subspace model ladder.
 
 **Source label:** `tab:micro_subspace_pooled`
 

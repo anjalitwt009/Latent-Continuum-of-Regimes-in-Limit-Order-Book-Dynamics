@@ -1,4 +1,4 @@
-# Table A3: Fixed-order event-level variables used to construct each covariance state.
+# Fixed-order event-level variables used to construct each covariance state.
 
 **Source label:** `tab:app_covariance_feature_inventory`
 

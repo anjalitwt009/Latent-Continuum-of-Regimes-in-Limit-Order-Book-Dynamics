@@ -1,4 +1,4 @@
-# Table 05: Continuum evidence, certificate scoreboard, and metric robustness.
+# Continuum evidence, certificate scoreboard, and metric robustness.
 
 **Source label:** `tab:continuum_scoreboard`
 

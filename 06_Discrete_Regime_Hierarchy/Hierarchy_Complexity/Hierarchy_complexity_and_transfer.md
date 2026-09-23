@@ -1,4 +1,4 @@
-# Table 08: Hierarchy complexity and transfer at 30 seconds. "Single split" uses the chronological half split; "pooled WF" concatenates expanding-year test losses before block bootstrap.
+# Hierarchy complexity and transfer at 30 seconds. "Single split" uses the chronological half split; "pooled WF" concatenates expanding-year test losses before block bootstrap.
 
 **Source label:** `tab:hierarchy`
 

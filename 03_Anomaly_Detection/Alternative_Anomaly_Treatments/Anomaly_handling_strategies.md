@@ -1,4 +1,4 @@
-# Table 02: Alternative treatments of identified anomalies. Strategies A-E are applied after M1-M6 to test whether downstream state structure depends on hard exclusion. All experiments use $K=4$, random seed 42, and a common sample of up to 200,000 windows. Strategy C is LE-only; Strategy E is a shared tangent-space comparator.
+# Alternative treatments of identified anomalies. Strategies A-E are applied after M1-M6 to test whether downstream state structure depends on hard exclusion. All experiments use $K=4$, random seed 42, and a common sample of up to 200,000 windows. Strategy C is LE-only; Strategy E is a shared tangent-space comparator.
 
 **Source label:** `tab:anomaly_handling`
 

@@ -1,4 +1,4 @@
-# Table 12: Year-specific headline intraday forecast performance.
+# Year-specific headline intraday forecast performance.
 
 **Source label:** `tab:year_specific_intraday`
 

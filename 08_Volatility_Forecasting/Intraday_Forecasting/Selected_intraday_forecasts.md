@@ -1,4 +1,4 @@
-# Table 11: Selected LE-SVR intraday forecast results. $\Delta R^2$ is relative to the cell-specific persistence forecast.
+# Selected LE-SVR intraday forecast results. $\Delta R^2$ is relative to the cell-specific persistence forecast.
 
 **Source label:** `tab:forecast_map`
 

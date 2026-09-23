@@ -1,4 +1,4 @@
-# Table 07: Anomaly-treatment materiality and Hawkes robustness.
+# Anomaly-treatment materiality and Hawkes robustness.
 
 **Source label:** `tab:anomaly_hawkes_robustness`
 
