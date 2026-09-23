@@ -1,5 +1,11 @@
 # Derivative-lead out-of-sample falsification
 
+[Open the cross-duration OOS comparison](Derivative_lead_OOS_falsification.pdf).
+The plot reports incremental daily OOS \(R^2\) over persistence; bars show the
+primary five-day moving-block 95% intervals. Velocity alone is positive under
+LE but does not replicate under AI, while every joint velocity-and-acceleration
+interval includes zero under both the five- and ten-day specifications.
+
 | Duration | Metric | ΔR² with derivatives | 5-day block 95% interval | 10-day block 95% interval | Derivative lead OOS |
 | --- | --- | --- | --- | --- | --- |
 | 30 s | LE | +0.00637 | [−0.00273, 0.01386] | [−0.00222, 0.01387] | No |
