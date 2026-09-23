@@ -1,0 +1,26 @@
+# Online detector scoreboard
+
+**Canvas source:** `step6-continuous-monitoring-inventory.canvas.tsx` · **Rows:** 18
+
+| Duration | Detector | Best F1 | Recall | Precision | AUC-PR | Delay days |
+| --- | --- | --- | --- | --- | --- | --- |
+| 30 | BOCPD | 0.499 | 0.480 | 0.519 | 0.306 | 0.14 |
+| 30 | CUSUM | 0.136 | 0.240 | 0.095 | 0.021 | 0.00 |
+| 30 | EWMA | 0.324 | 0.200 | 0.857 | 0.192 | 0.22 |
+| 30 | MMD | 0.198 | 0.360 | 0.137 | 0.062 | 0.00 |
+| 30 | Riemann LE | 0.361 | 0.340 | 0.385 | 0.282 | 0.38 |
+| 30 | Riemann AI | 0.361 | 0.340 | 0.385 | 0.282 | 0.38 |
+| 45 | BOCPD | 0.490 | 0.680 | 0.383 | 0.311 | 0.17 |
+| 45 | CUSUM | 0.141 | 0.200 | 0.108 | 0.022 | 0.00 |
+| 45 | EWMA | 0.324 | 0.200 | 0.857 | 0.197 | 0.22 |
+| 45 | MMD | 0.190 | 0.460 | 0.120 | 0.052 | 0.00 |
+| 45 | Riemann LE | 0.366 | 0.380 | 0.354 | 0.281 | 0.26 |
+| 45 | Riemann AI | 0.366 | 0.380 | 0.354 | 0.282 | 0.26 |
+| 60 | BOCPD | 0.498 | 0.520 | 0.477 | 0.300 | 0.13 |
+| 60 | CUSUM | 0.140 | 0.320 | 0.089 | 0.021 | 0.00 |
+| 60 | EWMA | 0.324 | 0.200 | 0.857 | 0.198 | 0.22 |
+| 60 | MMD | 0.193 | 0.480 | 0.121 | 0.049 | 0.00 |
+| 60 | Riemann LE | 0.375 | 0.380 | 0.369 | 0.284 | 0.21 |
+| 60 | Riemann AI | 0.366 | 0.380 | 0.354 | 0.286 | 0.26 |
+
+> **Note.** Evaluation uses 50 top-five-percent absolute VSTOXX-change days with a one-day tolerance.
