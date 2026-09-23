@@ -1,3 +1,0 @@
-# Topology
-
-Materials for **Topology**.

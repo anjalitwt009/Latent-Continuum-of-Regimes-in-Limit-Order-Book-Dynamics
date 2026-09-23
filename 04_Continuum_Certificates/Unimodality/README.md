@@ -1,3 +1,0 @@
-# Unimodality
-
-Materials for **Unimodality**.

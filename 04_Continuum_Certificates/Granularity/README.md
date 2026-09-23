@@ -1,3 +1,0 @@
-# Granularity
-
-Materials for **Granularity**.

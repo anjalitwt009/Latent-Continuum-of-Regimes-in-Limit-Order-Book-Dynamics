@@ -1,3 +1,0 @@
-# Stability
-
-Materials for **Stability**.
