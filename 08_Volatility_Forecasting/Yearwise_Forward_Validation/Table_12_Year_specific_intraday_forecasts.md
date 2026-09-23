@@ -1,0 +1,20 @@
+# Table 12: Year-specific headline intraday forecast performance.
+
+**Source label:** `tab:year_specific_intraday`
+
+| Duration | Horizon and<br>metric/model | 2023 | 2024 | 2025 |
+| --- | --- | --- | --- | --- |
+| 30 s | 10 min, LE/SVR | 0.7803 / 0.1711 | 0.5904 / 0.0764 | 0.5931 / 0.0341 |
+| 30 s | 10 min, AI/SVR | 0.7719 / 0.1626 | 0.5677 / 0.0537 | 0.6126 / 0.0536 |
+| 45 s | 10 min, LE/SVR | 0.8117 / 0.1419 | 0.6566 / 0.0713 | 0.6458 / 0.0214 |
+| 45 s | 10 min, AI/SVR | 0.8053 / 0.1356 | 0.6304 / 0.0451 | 0.6516 / 0.0272 |
+| 60 s | 10 min, LE/SVR | 0.8340 / 0.1213 | 0.6737 / 0.0349 | 0.6708 / 0.0044 |
+| 60 s | 10 min, AI/SVR | 0.8246 / 0.1119 | 0.6447 / 0.0059 | 0.6737 / 0.0072 |
+| 30 s | 1 hour, LE/SVR | 0.7181 / 0.2107 | 0.5459 / 0.1064 | 0.5118 / 0.0281 |
+| 30 s | 1 hour, AI/Huber | 0.6137 / 0.1063 | 0.6008 / 0.1614 | 0.6095 / 0.1258 |
+| 45 s | 1 hour, LE/Huber | 0.6674 / 0.0993 | 0.6443 / 0.1338 | 0.6395 / 0.0926 |
+| 45 s | 1 hour, AI/Huber | 0.6492 / 0.0811 | 0.6410 / 0.1304 | 0.6437 / 0.0968 |
+| 60 s | 1 hour, LE/SVR | 0.7875 / 0.1739 | 0.5812 / 0.0170 | 0.5986 / 0.0082 |
+| 60 s | 1 hour, AI/Huber | 0.6799 / 0.0663 | 0.6720 / 0.1077 | 0.6673 / 0.0770 |
+
+> **Note.** Each annual entry reports test $R^2$ followed by incremental $R^2$ over the corresponding persistence benchmark.
