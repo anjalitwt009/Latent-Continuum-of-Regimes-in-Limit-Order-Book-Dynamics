@@ -1,7 +1,5 @@
 # Purged versus non-purged macro transfer
 
-**Canvas source:** `step5-hierarchy-inventory.canvas.tsx` · **Rows:** 18
-
 | Duration | Metric | Fold | Purged ΔR² | Non-purged ΔR² |
 | --- | --- | --- | --- | --- |
 | 30 | LE | wf_2023 | 0.0059 | 0.0500 |

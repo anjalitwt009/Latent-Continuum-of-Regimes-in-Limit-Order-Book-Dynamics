@@ -1,7 +1,5 @@
 # Cross-duration continuous-state headline
 
-**Canvas source:** `step6-continuous-monitoring-inventory.canvas.tsx` · **Rows:** 3
-
 | Duration | \|Correlation with VSTOXX\| | Next-RV Pearson / Spearman | Peak macro ΔR² | OU half-life minutes | Transfer time minutes | BOCPD F1 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 30 s | 0.500 | 0.383 / 0.295 | 0.0317 | 5.42 | 4.30 | 0.499 |

@@ -1,7 +1,5 @@
 # Economic ordering
 
-**Canvas source:** `step6-continuous-monitoring-inventory.canvas.tsx` · **Rows:** 3
-
 | Duration | Future-RV monotonicity | VSTOXX monotonicity | Future RV D1→D10 ×10⁻⁴ | VSTOXX D1→D10 | Tail base | P(tail\|D10) | Lift |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 30 | 1.000 | 1.000 | 2.374 → 6.889 | 16.62 → 25.84 | 0.0100 | 0.0532 | 5.32× |

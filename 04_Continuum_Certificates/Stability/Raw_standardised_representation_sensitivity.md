@@ -1,7 +1,5 @@
 # Raw-standardised representation sensitivity
 
-**Canvas source:** `step3-continuum-inventory.canvas.tsx` · **Rows:** 3
-
 | Duration | Raw d_eff | Raw effective rank | Raw PC1 | Standardised d_eff | Standardised effective rank | Median Σ effective rank | Median Σ entropy |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 30 s | 1.4109 | 1.9850 | 83.66% | 10.2525 | 23.8105 | 1.5647 | 0.1653 |

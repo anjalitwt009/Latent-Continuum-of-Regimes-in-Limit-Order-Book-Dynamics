@@ -1,7 +1,5 @@
 # Intraday forecast map
 
-**Canvas source:** `step7-forecasting-tables.canvas.tsx` · **Rows:** 27
-
 | Duration seconds | Horizon | Persistence R² | LE best R² / model | LE ΔR² [95% CI] | AI best R² / model | AI ΔR² [95% CI] |
 | --- | --- | --- | --- | --- | --- | --- |
 | 30 | Next | .4273 | .5033 SVR | .0760 [.0705,.0813] | .5068 SVR | .0794 [.0746,.0839] |

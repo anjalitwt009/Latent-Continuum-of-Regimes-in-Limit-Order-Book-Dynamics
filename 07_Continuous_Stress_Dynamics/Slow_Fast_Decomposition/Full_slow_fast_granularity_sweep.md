@@ -1,7 +1,5 @@
 # Full slow-fast granularity sweep
 
-**Canvas source:** `step6-continuous-monitoring-inventory.canvas.tsx` · **Rows:** 21
-
 | Duration | Half-life h | Macro ΔR² | Macro 95% CI | Micro ΔR² | Micro 95% CI |
 | --- | --- | --- | --- | --- | --- |
 | 30 | 5 | 0.0317 | [0.0272, 0.0365] | 0.0069 | [0.0053, 0.0084] |

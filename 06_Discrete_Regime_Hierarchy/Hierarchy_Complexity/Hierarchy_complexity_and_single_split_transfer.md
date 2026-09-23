@@ -1,7 +1,5 @@
 # Hierarchy complexity and single-split transfer
 
-**Canvas source:** `step5-hierarchy-inventory.canvas.tsx` · **Rows:** 8
-
 | Metric | Tier | Bands | Train η² | OOS ΔR² | Stability ARI | Median leaf |
 | --- | --- | --- | --- | --- | --- | --- |
 | AI | MACRO | 4 | 0.061 | 0.011 | 0.880 | 215,082 |

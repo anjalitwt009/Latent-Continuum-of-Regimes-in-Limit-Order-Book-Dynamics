@@ -1,7 +1,5 @@
 # Stress-axis association
 
-**Canvas source:** `step3-continuum-inventory.canvas.tsx` · **Rows:** 7
-
 | Scope | 30 s \|ρ\| | 45 s \|ρ\| | 60 s \|ρ\| |
 | --- | --- | --- | --- |
 | Pooled 2022–25 | 0.4997 | 0.5141 | 0.5221 |

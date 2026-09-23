@@ -1,7 +1,5 @@
 # Next-day 15-learner bake-off
 
-**Canvas source:** `step7-forecasting-tables.canvas.tsx` · **Rows:** 15
-
 | Learner | 30 LE | 30 AI | 45 LE | 45 AI | 60 LE | 60 AI | Wins |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Linear | .8374 | .8197 | .8375 | .8191 | .8342 | .8211 | 0 |

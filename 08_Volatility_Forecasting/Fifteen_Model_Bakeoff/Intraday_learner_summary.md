@@ -1,7 +1,5 @@
 # Intraday 15-learner summary
 
-**Canvas source:** `step7-forecasting-tables.canvas.tsx` · **Rows:** 15
-
 | Rank | Learner | Wins | Mean LE R² | Mean AI R² | 60s 10m LE | 60s 10m AI | 60s 1h LE | 60s 1h AI |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | SVR | 50 | .6458 | .6401 | .7497 | .7391 | .6858 | .6661 |

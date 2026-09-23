@@ -1,7 +1,5 @@
 # Learner capacity at the two headline horizons
 
-**Canvas source:** `step7-forecasting-tables.canvas.tsx` · **Rows:** 12
-
 | Duration seconds | Horizon | Metric | Best | Best R² | Linear R² | Capacity gain |
 | --- | --- | --- | --- | --- | --- | --- |
 | 30 | 10 m | LE | SVR | .6824 | .6263 | .0561 |

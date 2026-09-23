@@ -1,7 +1,5 @@
 # Band stability and frozen transfer
 
-**Canvas source:** `step5-hierarchy-inventory.canvas.tsx` · **Rows:** 3
-
 | Duration | ARI(E,A) AI | ARI(E,A) LE | Stability AI | Stability LE | Frozen OOS holds AI / LE |
 | --- | --- | --- | --- | --- | --- |
 | 30 | 0.128 | 0.143 | 0.312 | 0.888 | No / No |

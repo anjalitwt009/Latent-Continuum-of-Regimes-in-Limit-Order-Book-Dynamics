@@ -1,7 +1,5 @@
 # Axis stability and migrating levels
 
-**Canvas source:** `step5-hierarchy-inventory.canvas.tsx` · **Rows:** 21
-
 | Duration | Pair or year | Axis cosine | Stress level | VSTOXX |
 | --- | --- | --- | --- | --- |
 | 30 | 2022→23 | 0.8586 | — | — |

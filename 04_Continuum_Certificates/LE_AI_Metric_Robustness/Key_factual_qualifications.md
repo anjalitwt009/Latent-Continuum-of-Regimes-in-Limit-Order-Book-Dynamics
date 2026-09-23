@@ -1,7 +1,5 @@
 # Key factual qualifications
 
-**Canvas source:** `step3-continuum-inventory.canvas.tsx` · **Rows:** 3
-
 | Qualification | Observed result | Interpretation |
 | --- | --- | --- |
 | 45-second AI bootstrap | Peak stability at K=4; AI score 5/6 | A single certificate miss; continuum verdict remains confirmed |

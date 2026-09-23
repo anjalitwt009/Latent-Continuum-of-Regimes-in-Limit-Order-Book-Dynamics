@@ -1,7 +1,5 @@
 # Annual external validity and detector skill
 
-**Canvas source:** `step6-continuous-monitoring-inventory.canvas.tsx` · **Rows:** 12
-
 | Duration | Year | Correlation dial–VSTOXX | BOCPD F1 | Riemann LE F1 |
 | --- | --- | --- | --- | --- |
 | 30 | 2022 | 0.4265 | 0.357 | 0.262 |

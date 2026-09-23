@@ -1,7 +1,5 @@
 # Natural feature groups
 
-**Canvas source:** `feature-transform-inventory.canvas.tsx` · **Rows:** 95
-
 | Feature group | Exact feature |
 | --- | --- |
 | Price, returns, and volatility | mid_open |

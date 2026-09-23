@@ -1,7 +1,5 @@
 # Cross-representation agreement
 
-**Canvas source:** `step5-hierarchy-inventory.canvas.tsx` · **Rows:** 3
-
 | Duration | Mean off-diagonal ARI | Discrete LE–AI | Discrete LE–continuous | Discrete AI–continuous | Continuous LE–AI |
 | --- | --- | --- | --- | --- | --- |
 | 30 | 0.4447 | 0.3426 | 0.3123 | 0.3504 | 1.000 |

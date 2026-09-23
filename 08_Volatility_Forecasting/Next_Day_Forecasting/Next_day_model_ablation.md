@@ -1,7 +1,5 @@
 # Next-day model ablation
 
-**Canvas source:** `step7-forecasting-tables.canvas.tsx` · **Rows:** 16
-
 | Duration seconds | Metric | Model | R² | QLIKE | ΔR² vs HAR | DM p | MCS90 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | All | Shared | Persistence | .8018 | .0960 | −.1647 | <.001 | No |

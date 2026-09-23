@@ -1,7 +1,5 @@
 # Next-day upper-tail performance
 
-**Canvas source:** `step7-forecasting-tables.canvas.tsx` · **Rows:** 16
-
 | Duration seconds | Metric | Model | Tail RMSE | Tail QLIKE | Underprediction | Mean shortfall |
 | --- | --- | --- | --- | --- | --- | --- |
 | All | Shared | Persistence | .005924 | .1885 | .7703 | .004288 |

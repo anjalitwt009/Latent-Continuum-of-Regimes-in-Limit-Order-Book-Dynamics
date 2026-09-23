@@ -1,7 +1,5 @@
 # Next-day VSTOXX-conditional performance
 
-**Canvas source:** `step7-forecasting-tables.canvas.tsx` · **Rows:** 18
-
 | Duration seconds | Metric | Bucket | n | R² | RMSE | QLIKE |
 | --- | --- | --- | --- | --- | --- | --- |
 | 30 | LE | Calm | 248 | .9490 | .001739 | .0697 |

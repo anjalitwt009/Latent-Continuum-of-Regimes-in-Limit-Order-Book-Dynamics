@@ -1,7 +1,5 @@
 # Frozen-band out-of-sample transfer
 
-**Canvas source:** `step5-hierarchy-inventory.canvas.tsx` · **Rows:** 12
-
 | Duration | Train→test | AI test NMI | LE test NMI | AI / LE hold |
 | --- | --- | --- | --- | --- |
 | 30 | 2022–23→2024–25 | 0.0844 | 0.0767 | Yes / Yes |

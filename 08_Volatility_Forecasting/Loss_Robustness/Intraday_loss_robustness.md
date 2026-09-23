@@ -1,7 +1,5 @@
 # Intraday loss robustness
 
-**Canvas source:** `step7-forecasting-tables.canvas.tsx` · **Rows:** 12
-
 | Duration seconds | Horizon | Metric / model | R² | RMSE | MAE | QLIKE |
 | --- | --- | --- | --- | --- | --- | --- |
 | 30 | 10 m | LE/SVR | .6824 | .000588 | .000469 | .2002 |

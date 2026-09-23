@@ -1,7 +1,5 @@
 # Micro-information comparison
 
-**Canvas source:** `micro-subspace-tables.canvas.tsx` · **Rows:** 3
-
 | Representation | Evidence | Result | Interpretation |
 | --- | --- | --- | --- |
 | Discrete micro boxes | Step 5 hierarchy | Negative below macro tier | Overfits out of sample |

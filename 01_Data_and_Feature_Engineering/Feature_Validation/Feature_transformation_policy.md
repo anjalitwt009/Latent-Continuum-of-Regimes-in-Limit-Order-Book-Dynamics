@@ -1,7 +1,5 @@
 # Feature transformation policy
 
-**Canvas source:** `feature-transform-inventory.canvas.tsx` · **Rows:** 72
-
 | Group | Method | Behaviour | Exact feature |
 | --- | --- | --- | --- |
 | Signed heavy-tailed | asinh(x) | 12 transformed columns are added; original columns remain. | ofi_window |

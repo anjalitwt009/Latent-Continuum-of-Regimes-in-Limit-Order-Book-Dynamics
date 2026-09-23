@@ -1,7 +1,5 @@
 # Online detector scoreboard
 
-**Canvas source:** `step6-continuous-monitoring-inventory.canvas.tsx` · **Rows:** 18
-
 | Duration | Detector | Best F1 | Recall | Precision | AUC-PR | Delay days |
 | --- | --- | --- | --- | --- | --- | --- |
 | 30 | BOCPD | 0.499 | 0.480 | 0.519 | 0.306 | 0.14 |

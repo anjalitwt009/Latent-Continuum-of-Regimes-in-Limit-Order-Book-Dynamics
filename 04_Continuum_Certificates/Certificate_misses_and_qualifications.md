@@ -1,7 +1,5 @@
 # Explicit certificate misses and qualifications
 
-**Canvas source:** `step3-continuum-inventory.canvas.tsx` · **Rows:** 3
-
 | Duration | Test | Observed statistic | Gate | Qualification |
 | --- | --- | --- | --- | --- |
 | 45 s | Pooled AI bootstrap | Peak K = 4; ARI = 0.9391; K2–K8 decay = 0.3475 | Peak K ≤ 3 and decay > 0.05 | Fails peak-K condition; AI retains 5/6 votes and LE retains 6/6 |

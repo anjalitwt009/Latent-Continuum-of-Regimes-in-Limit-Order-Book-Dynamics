@@ -1,7 +1,5 @@
 # Forward year-specific model ladder
 
-**Canvas source:** `micro-subspace-tables.canvas.tsx` · **Rows:** 9
-
 | Duration | Test year | M0 R² | M1 R² | M2 R² | Macro ΔR² | Micro ΔR² | Micro 95% CI | Significant |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 30 s | 2023 | −0.2618 | −0.1081 | −0.0416 | +0.1537 | +0.0665 | [0.0571, 0.0770] | Yes |

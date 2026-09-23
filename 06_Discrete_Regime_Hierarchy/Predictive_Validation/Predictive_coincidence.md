@@ -1,7 +1,5 @@
 # Predictive coincidence
 
-**Canvas source:** `step5-hierarchy-inventory.canvas.tsx` · **Rows:** 3
-
 | Duration | Persistence R² | Dial-only R² | Combined R² | ΔR² | Directional accuracy | Peak lag / correlation |
 | --- | --- | --- | --- | --- | --- | --- |
 | 30 | 0.4066 | 0.1920 | 0.4404 | 0.0338 | 0.6118 | 1 / 0.3846 |

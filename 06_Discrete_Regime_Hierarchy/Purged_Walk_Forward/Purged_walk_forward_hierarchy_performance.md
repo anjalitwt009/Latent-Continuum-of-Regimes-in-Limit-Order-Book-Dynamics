@@ -1,7 +1,5 @@
 # Purged pooled walk-forward hierarchy performance
 
-**Canvas source:** `step5-hierarchy-inventory.canvas.tsx` · **Rows:** 24
-
 | Duration | Metric | Tier | Bands | ΔR² | 95% interval | Significant |
 | --- | --- | --- | --- | --- | --- | --- |
 | 30 | LE | MACRO | 4 | 0.0292 | [0.0239, 0.0350] | + |

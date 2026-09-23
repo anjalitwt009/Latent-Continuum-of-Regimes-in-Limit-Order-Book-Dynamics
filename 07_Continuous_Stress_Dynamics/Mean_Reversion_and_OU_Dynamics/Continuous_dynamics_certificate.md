@@ -1,7 +1,5 @@
 # Continuous dynamics certificate
 
-**Canvas source:** `step6-continuous-monitoring-inventory.canvas.tsx` · **Rows:** 3
-
 | Duration | OU θ [95% CI] | OU half-life windows / minutes | μ | σ | Transfer τ windows / minutes | θ>0 / OU>RW / convergence |
 | --- | --- | --- | --- | --- | --- | --- |
 | 30 | 0.0639 [0.0586, 0.0723] | 10.84 / 5.42 | −0.0697 | 2.0322 | 8.60 / 4.30 | Yes / Yes / Yes |

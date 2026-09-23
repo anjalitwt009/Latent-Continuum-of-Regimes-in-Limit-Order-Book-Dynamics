@@ -1,7 +1,5 @@
 # Full next-day Mincer-Zarnowitz results
 
-**Canvas source:** `step7-forecasting-tables.canvas.tsx` · **Rows:** 16
-
 | Duration seconds | Metric | Model | Intercept a | Slope b | MZ R² | Joint p |
 | --- | --- | --- | --- | --- | --- | --- |
 | All | Shared | Persistence | −.00013 | .9204 | .5831 | <.001 |

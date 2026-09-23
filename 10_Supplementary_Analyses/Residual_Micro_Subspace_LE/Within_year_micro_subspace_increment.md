@@ -1,7 +1,5 @@
 # Within-year micro-subspace increment
 
-**Canvas source:** `micro-subspace-tables.canvas.tsx` · **Rows:** 12
-
 | Duration | Year | Micro ΔR² | 95% CI | Significant |
 | --- | --- | --- | --- | --- |
 | 30 s | 2022 | +0.0943 | [0.0747, 0.1145] | Yes |

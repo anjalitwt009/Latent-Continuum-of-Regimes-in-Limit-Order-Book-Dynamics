@@ -1,7 +1,5 @@
 # Derivative-lead out-of-sample falsification
 
-**Canvas source:** `step8-causal-inventory.canvas.tsx` · **Rows:** 6
-
 | Duration | Metric | ΔR² with derivatives | 95% interval | Derivative lead OOS |
 | --- | --- | --- | --- | --- |
 | 30 s | LE | +0.0055 | Includes zero | No |

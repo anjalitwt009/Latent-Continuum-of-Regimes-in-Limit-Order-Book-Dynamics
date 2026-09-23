@@ -1,7 +1,5 @@
 # Complete 54-cell incremental R² grid
 
-**Canvas source:** `step7-forecasting-tables.canvas.tsx` · **Rows:** 10
-
 | Horizon | 30 LE | 30 AI | 45 LE | 45 AI | 60 LE | 60 AI |
 | --- | --- | --- | --- | --- | --- | --- |
 | Next | .0760 [.0705,.0813] | .0794 [.0746,.0839] | .0527 [.0451,.0593] | .0505 [.0434,.0561] | .0370 [.0299,.0435] | .0372 [.0321,.0426] |

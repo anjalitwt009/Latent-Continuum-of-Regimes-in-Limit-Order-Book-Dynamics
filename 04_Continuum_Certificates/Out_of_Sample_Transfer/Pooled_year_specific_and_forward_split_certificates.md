@@ -1,7 +1,5 @@
 # Pooled, year-specific, and forward-split certificates
 
-**Canvas source:** `step3-continuum-inventory.canvas.tsx` · **Rows:** 21
-
 | Duration | Split | N | d_eff | AI gap | Dip | \|PC1–VSTOXX\| | Verdict |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 30 s | Pooled 2022–25 | 837,890 | 1.4109 | 0.1761 | 0.00080 | 0.4997 | Pass |

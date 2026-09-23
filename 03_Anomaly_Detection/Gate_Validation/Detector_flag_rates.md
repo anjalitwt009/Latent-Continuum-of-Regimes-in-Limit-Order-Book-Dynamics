@@ -1,7 +1,5 @@
 # Detector flag rates
 
-**Canvas source:** `anomaly-section-audit.canvas.tsx` · **Rows:** 6
-
 | Measure | 30 s | 45 s | 60 s | Denominator |
 | --- | --- | --- | --- | --- |
 | MDI gate flag | 4.942% | 4.986% | 4.938% | Mask grid |

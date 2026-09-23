@@ -1,7 +1,5 @@
 # Year-specific OU heterogeneity
 
-**Canvas source:** `step6-continuous-monitoring-inventory.canvas.tsx` · **Rows:** 15
-
 | Duration | Scope | θ | Half-life windows | μ | σ | AR(1) R² |
 | --- | --- | --- | --- | --- | --- | --- |
 | 30 | Pooled | 0.0639 | 10.84 | −0.0697 | 2.0322 | 0.8819 |

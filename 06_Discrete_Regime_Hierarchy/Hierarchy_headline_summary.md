@@ -1,7 +1,5 @@
 # Hierarchy headline summary
 
-**Canvas source:** `step5-hierarchy-inventory.canvas.tsx` · **Rows:** 3
-
 | Duration | Minimum axis cosine | Pooled macro ΔR² LE / AI | Mean cross-representation ARI | Continuous predictive ΔR² |
 | --- | --- | --- | --- | --- |
 | 30 s | 0.859 | +0.029 / +0.043 | 0.445 | 0.034 |

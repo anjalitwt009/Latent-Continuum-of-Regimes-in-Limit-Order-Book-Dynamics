@@ -1,7 +1,5 @@
 # Next-day Diebold-Mariano and model-confidence-set results
 
-**Canvas source:** `step7-forecasting-tables.canvas.tsx` · **Rows:** 16
-
 | Duration seconds | Metric | Model | DM t | DM p | Better | MCS90 |
 | --- | --- | --- | --- | --- | --- | --- |
 | All | Shared | Persistence | 5.944 | <.001 | HAR | No |
