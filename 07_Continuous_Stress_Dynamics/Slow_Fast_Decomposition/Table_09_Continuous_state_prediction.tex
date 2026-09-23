@@ -1,0 +1,41 @@
+% Extracted from the compiled manuscript.
+% Source label: tab:continuous_state_prediction
+
+\begin{table}[t]
+\centering
+\caption{Continuous-state validity and best-timescale predictive performance.}
+\label{tab:continuous_state_prediction}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\textit{Panel A: State validity and persistence}\\[0.5ex]
+\begin{tabular}{lrrrrrr}
+\toprule
+Duration & Windows & \shortstack{PC1\\fraction} &
+\shortstack{Corr.\\VSTOXX} & \shortstack{Pearson\\next RV} &
+\shortstack{Spearman\\next RV} & \shortstack{Lag-1 AC /\\decay HL}\\
+\midrule
+30 s & 837,890 & 0.2741 & 0.4997 & 0.3828 & 0.2955 & 0.9391 / 11.03\\
+45 s & 559,261 & 0.2855 & 0.5141 & 0.4145 & 0.3439 & 0.9515 / 13.93\\
+60 s & 419,493 & 0.2922 & 0.5221 & 0.4332 & 0.3775 & 0.9570 / 15.78\\
+\bottomrule
+\end{tabular}
+
+\vspace{1.2ex}
+\textit{Panel B: Best-half-life predictive performance}\\[0.5ex]
+\begin{tabular}{lrrrr}
+\toprule
+Duration & \shortstack{Best\\$h$} & \shortstack{Persist / +slow / +fast\\$R^2$} &
+\shortstack{Slow $\Delta R^2$\\(95\% interval)} &
+\shortstack{Fast\\$\Delta R^2$}\\
+\midrule
+30 s & 5 & 0.4273 / 0.4590 / 0.4659 & 0.0317 [0.0272, 0.0365] & 0.0069\\
+45 s & 5 & 0.5225 / 0.5462 / 0.5508 & 0.0237 [0.0206, 0.0270] & 0.0046\\
+60 s & 5 & 0.5871 / 0.6054 / 0.6083 & 0.0183 [0.0160, 0.0207] & 0.0029\\
+\bottomrule
+\end{tabular}
+\begin{minipage}{0.94\linewidth}\footnotesize
+M0 is the persistence model, M1 adds the slow stress dial, and M2 adds the
+fast residual and velocity.  Predictive results are pooled purged
+walk-forward estimates with a one-day embargo; \(h\) is measured in windows.
+\end{minipage}
+\end{table}

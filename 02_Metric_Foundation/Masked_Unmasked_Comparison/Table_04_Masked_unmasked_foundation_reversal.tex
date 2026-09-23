@@ -1,0 +1,26 @@
+% Extracted from the compiled manuscript.
+% Source label: tab:mask_reversal
+
+\begin{table}[t]
+\centering
+\caption{Masked-unmasked LE/AI foundation reversal.  The operating minimum
+has a 0.9 certification threshold.}
+\label{tab:mask_reversal}
+\small
+\begin{tabular}{llrrl}
+\toprule
+Duration & Sample & Operating minimum & Drift correlation & Status\\
+\midrule
+30 s & Unmasked & 0.8778 & 0.7932 & Not certified\\
+     & Masked   & 0.9532 & 0.8600 & Certified\\
+45 s & Unmasked & 0.8117 & 0.4622 & Not certified\\
+     & Masked   & 0.8178 & 0.8437 & Drift-only reversal\\
+60 s & Unmasked & 0.9518 & 0.1493 & Operating gate passes\\
+     & Masked   & 0.7518 & $-0.1666$ & Masking hurts foundation\\
+\bottomrule
+\end{tabular}
+\begin{minipage}{0.94\linewidth}\footnotesize
+The canonical sample remains the native mask at every duration; ``status''
+describes only this foundation diagnostic.
+\end{minipage}
+\end{table}

@@ -1,0 +1,27 @@
+% Extracted from the compiled manuscript.
+% Source label: tab:anomaly_hawkes_robustness
+
+\begin{table}[!b]
+\centering
+\caption{Anomaly-treatment materiality and Hawkes robustness.}
+\label{tab:anomaly_hawkes_robustness}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lrrrrrrl}
+\toprule
+Duration & \shortstack{LE\\spread} & \shortstack{AI\\spread} &
+\shortstack{Mean\\$n$} & \shortstack{$\mathrm{corr}$\\$(n,\mathrm{VSTOXX})$} &
+\shortstack{LE $n$\\spread} & \shortstack{AI $n$\\spread} & Verdict\\
+\midrule
+30 s & 0.0298 & 0.0380 & 0.4417 & 0.1631 & 0.0318 & 0.0138 & Pass / negative\\
+45 s & 0.0300 & 0.0272 & 0.4419 & 0.1627 & 0.0251 & 0.0161 & Pass / negative\\
+60 s & 0.0230 & 0.0224 & 0.4418 & 0.1634 & 0.0232 & 0.0168 & Pass / negative\\
+\bottomrule
+\end{tabular}
+\begin{minipage}{0.94\linewidth}\footnotesize
+The anomaly-treatment materiality gate is an economic-NMI spread below 0.05.
+The reflexivity-flat gates are a regime-$n$ spread below 0.10 and
+$|\mathrm{corr}(n,\mathrm{VSTOXX})|<0.20$.  ``Pass / negative'' denotes a
+materiality pass and a negative result for separable Hawkes reflexivity.
+\end{minipage}
+\end{table}

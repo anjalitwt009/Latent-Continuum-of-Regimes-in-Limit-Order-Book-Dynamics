@@ -1,0 +1,31 @@
+% Extracted from the compiled manuscript.
+% Source label: tab:app_covariance_feature_inventory
+
+\begin{table}[!htbp]
+\centering
+\caption{Fixed-order event-level variables used to construct each covariance state.}
+\label{tab:app_covariance_feature_inventory}
+\small
+\begin{tabular}{@{}r p{0.22\linewidth} p{0.45\linewidth} p{0.18\linewidth}@{}}
+\toprule
+\# & Variable & Description & Group\\
+\midrule
+1  & \texttt{bid\_price\_1}       & Best bid price (L1) & Price\\
+2  & \texttt{ask\_price\_1}       & Best ask price (L1) & Price\\
+3  & \texttt{mid}                 & Mid-price \(\tfrac{1}{2}(b_1+a_1)\) & Price\\
+4  & \texttt{spread}              & Quoted spread \(a_1-b_1\) & Cost\\
+5  & \texttt{relative\_spread}    & Spread divided by mid-price & Cost\\
+6  & \texttt{microprice}          & Size-weighted microprice & Price/pressure\\
+7  & \texttt{bid\_vol\_1}         & Displayed L1 bid quantity & Depth\\
+8  & \texttt{ask\_vol\_1}         & Displayed L1 ask quantity & Depth\\
+9  & \texttt{trade\_volume}       & Traded volume associated with the observation & Activity\\
+10 & \texttt{depth\_imbalance\_5} & Five-level depth imbalance & Depth/imbalance\\
+11 & \texttt{imbalance\_1}        & Level-1 imbalance & Imbalance\\
+12 & \texttt{imbalance\_2}        & Level-2 imbalance & Imbalance\\
+13 & \texttt{imbalance\_3}        & Level-3 imbalance & Imbalance\\
+14 & \texttt{ofi\_weighted}       & Depth-weighted five-level order-flow imbalance
+                                      using depth decay & Order flow\\
+15 & \texttt{price\_pressure}     & Clipped price pressure & Order flow\\
+\bottomrule
+\end{tabular}
+\end{table}

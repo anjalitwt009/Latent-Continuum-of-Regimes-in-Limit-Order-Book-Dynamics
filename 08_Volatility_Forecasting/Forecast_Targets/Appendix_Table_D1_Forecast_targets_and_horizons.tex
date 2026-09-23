@@ -1,0 +1,43 @@
+% Extracted from the compiled manuscript.
+% Source label: tab:app_forecast_targets
+
+\begin{table}[!htbp]
+\centering
+\caption{Realised-variation quantities and forecast-horizon specification.}
+\label{tab:app_forecast_targets}
+\small
+\begin{tabular}{@{}p{0.24\linewidth} p{0.47\linewidth} p{0.22\linewidth}@{}}
+\toprule
+Quantity & Definition & Role\\
+\midrule
+Realised variance and volatility
+& \(\mathrm{RV}_t=\sum_i r_i^2\) and
+\(\mathrm{RVol}_t=\sqrt{\mathrm{RV}_t}\), using within-session log-mid-price
+returns with the first session return set to zero
+& Forecast target and persistence benchmark\\
+
+Bipower variation
+& \(\mathrm{BV}_t=(\pi/2)\sum_i |r_i||r_{i-1}|\)
+& Jump-robust continuous-variation estimate\\
+
+Jump component
+& \(J_t=\max\{\mathrm{RV}_t-\mathrm{BV}_t,0\}\)
+& Non-negative discontinuity measure\\
+
+Forward horizons
+& Next complete native window; 30, 45, and 60 seconds; 2, 5, 10, 15, and
+30 minutes; and 1 hour
+& Multi-horizon forecasting\\
+
+Constraints
+& Targets remain within the same trading session, and no forecast horizon is
+finer than the native covariance duration
+& Temporal-alignment and leakage control\\
+\bottomrule
+\end{tabular}
+\begin{minipage}{0.94\linewidth}\footnotesize
+These quantities are constructed separately from the 15 event-level inputs to
+\(\Sigma_t\). Realised variance enters the jump decomposition, while realised
+volatility supplies the volatility-scale forecasting outcome.
+\end{minipage}
+\end{table}

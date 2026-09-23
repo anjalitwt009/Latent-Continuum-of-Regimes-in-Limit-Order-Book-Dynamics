@@ -1,0 +1,60 @@
+% Extracted from the compiled manuscript.
+% Source label: tab:app_window_feature_families
+
+\begin{table}[!htbp]
+\centering
+\caption{Composition of the 143-variable window store by feature family.}
+\label{tab:app_window_feature_families}
+\small
+\begin{tabular}{@{}p{0.34\linewidth} r p{0.50\linewidth}@{}}
+\toprule
+Family & \# & Examples\\
+\midrule
+Order flow/imbalance
+& 29 & \texttt{ofi\_window}, \texttt{imbal\_1-10},
+\texttt{price\_pressure\_mean}, \texttt{vpin\_proxy}\\
+Rolling robust z-scores/warm-up
+& 17 & \texttt{spread\_z}, \texttt{vol\_z}, \texttt{ofi\_z},
+\texttt{feat\_warmup}\\
+Lags
+& 16 & \texttt{mid\_return\_lag1/2},
+\texttt{realized\_vol\_lag1/2}\\
+Price/return
+& 14 & \texttt{mid\_open/close/high/low}, \texttt{mid\_return},
+\texttt{vwap}\\
+Spread/cost
+& 13 & \texttt{spread\_median/max/min},
+\texttt{effective\_spread\_mean}, \texttt{roll\_spread}\\
+Depth/book shape
+& 13 & \texttt{depth\_bid/ask\_\{3,5,10\}},
+\texttt{book\_slope\_ratio\_mean}, \texttt{depth\_gini}\\
+Realised variation/volatility
+& 12 & \texttt{realized\_var}, \texttt{bipower\_var},
+\texttt{parkinson\_vol}, \texttt{garman\_klass\_vol}\\
+Trading activity
+& 12 & \texttt{n\_upticks}, \texttt{n\_trades},
+\texttt{events\_per\_sec}, \texttt{arrival\_cv}\\
+Calendar position
+& 6 & \texttt{minutes\_since\_open}, \texttt{is\_first\_30min},
+\texttt{day\_of\_week}\\
+Liquidity/impact
+& 4 & \texttt{kyle\_lambda}, \texttt{amihud\_illiq},
+\texttt{message\_to\_trade\_ratio}\\
+VSTOXX/external
+& 4 & \texttt{vstoxx\_level}, \texttt{vstoxx\_return},
+\texttt{fesx\_vstoxx\_corr}\\
+Jump measures
+& 3 & \texttt{jump\_component}, \texttt{jump\_flag},
+\texttt{jump\_ratio}\\
+\midrule
+Total & 143 & \\
+\bottomrule
+\end{tabular}
+\begin{minipage}{0.94\linewidth}\footnotesize
+Counts are mutually exclusive and sum to 143.
+These window-level variables support anomaly detection, forecasting targets, and validation;
+they do not enter \(\Sigma_t\) directly. Table~\ref{tab:app_covariance_feature_inventory}
+separately identifies the 15 raw event-level covariance inputs, including any similarly named
+analogues.
+\end{minipage}
+\end{table}
