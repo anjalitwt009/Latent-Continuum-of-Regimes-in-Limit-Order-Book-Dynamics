@@ -1,12 +1,9 @@
-# Selected LE-SVR intraday forecast results. $\Delta R^2$ is relative to the cell-specific persistence forecast.
+# Selected LE-SVR intraday forecast results
 
-|  | 30 s covariance |  | 45 s covariance |  | 60 s covariance |  |
-| --- | --- | --- | --- | --- | --- | --- |
-| Horizon | $R^2$ | $\Delta R^2$ | $R^2$ | $\Delta R^2$ | $R^2$ | $\Delta R^2$ |
-| 2 min | 0.6291 | 0.0935 | 0.6403 | 0.0693 | 0.6740 | 0.0433 |
-| 5 min | 0.6761 | 0.1045 | 0.7026 | 0.0724 | 0.7347 | 0.0590 |
-| 10 min | 0.6824 | 0.1098 | 0.7279 | 0.0909 | 0.7497 | 0.0676 |
-| 30 min | 0.6496 | 0.1156 | 0.6948 | 0.0962 | 0.7208 | 0.0752 |
-| 1 hour | 0.6194 | 0.1345 | 0.6515 | 0.1027 | 0.6858 | 0.0902 |
-
-> **Note.** All displayed increments have block-bootstrap intervals above zero.
+| Horizon | 30 s R² | 30 s ΔR² | 45 s R² | 45 s ΔR² | 60 s R² | 60 s ΔR² |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| 2 m | 0.6295 | 0.0938 | 0.6354 | 0.0644 | 0.6758 | 0.0451 |
+| 5 m | 0.6820 | 0.1104 | 0.7017 | 0.0714 | 0.7335 | 0.0578 |
+| 10 m | 0.6821 | 0.1096 | 0.7273 | 0.0903 | 0.7483 | 0.0662 |
+| 30 m | 0.6457 | 0.1117 | 0.6914 | 0.0928 | 0.7173 | 0.0717 |
+| 1 h | 0.6162 | 0.1313 | 0.6488 | 0.1000 | 0.6821 | 0.0865 |
