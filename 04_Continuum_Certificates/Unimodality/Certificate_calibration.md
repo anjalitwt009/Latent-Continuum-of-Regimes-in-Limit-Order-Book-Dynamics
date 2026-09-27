@@ -1,7 +1,17 @@
-# Unimodality certificate calibration
+# Certificate calibration
 
-The dip criterion was calibrated over ten simulated replications of a genuine
-continuum and a discrete three-cluster alternative.
+The certificates were evaluated over ten simulated replications of a genuine
+one-dimensional continuum and a discrete three-cluster alternative.
+
+| Certificate | Continuum | Discrete | Calibration verdict |
+| --- | ---: | ---: | --- |
+| Dip / unimodality | 100% | 0% | Diagnostic |
+| Effective dimension, raw | 100% | 100% | Non-diagnostic |
+| Effective dimension, standardised | 100% | 100% | Non-diagnostic |
+| H0 one-component | 0% | 0% | Uninformative |
+| H1 no-loop | 100% | 100% | Non-diagnostic |
+
+## Dip statistic detail
 
 | Simulated structure | Replications | Mean dip | Range | Dip criterion result |
 | --- | ---: | ---: | --- | --- |
