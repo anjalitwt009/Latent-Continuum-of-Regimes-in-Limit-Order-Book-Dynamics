@@ -14,7 +14,7 @@
 | 45 | LE | Full | .938 | .3484 | HAR | No |
 | 45 | AI | Regime | 8.767 | <.001 | HAR | No |
 | 45 | AI | Full | 5.401 | <.001 | HAR | No |
-| 60 | LE | Regime | 2.221 | .0267 | HAR | No |
+| 60 | LE | Regime | 3.742 | .0002 | HAR | No |
 | 60 | LE | Full | .922 | .3566 | HAR | No |
 | 60 | AI | Regime | 4.138 | <.001 | HAR | No |
 | 60 | AI | Full | 4.901 | <.001 | HAR | No |

@@ -11,7 +11,7 @@
 | C4: No persistent $H_1$ loop | ratio $<0.15$ or rank $p\geq0.05$ | 0.0209 (pass) | 0.0568 (pass) | 0.0437 (pass) |
 | C5: Spectral gap, AI/LE | each $<0.30$ | 0.176/0.227 (pass) | 0.139/0.200 (pass) | 0.188/0.187 (pass) |
 | C6: Bootstrap peak $K$, AI/LE | each $K\leq3$; ARI drop $>0.05$ | 2/2 (pass) | 4/2 (AI fail) | 3/2 (pass) |
-| AI/LE vote | at least 5 of 6 | 6/6; 6/6 | 5/6; 6/6 | 6/6; 6/6 |
-| Joint verdict | both metrics confirm | Confirmed | Confirmed, qualified | Confirmed |
+| Diagnostic tally, AI/LE | Descriptive summary | 6/6; 6/6 | 5/6; 6/6 | 6/6; 6/6 |
+| Overall assessment | Calibrated and supporting evidence | Supported | Supported, qualified | Supported |
 
-> **Note.** Paired entries report AI/LE values. The sole pooled miss is the 45-second AI bootstrap certificate; the pre-specified five-of-six voting rule retains the continuum verdict.
+> **Note.** Paired entries report AI/LE values. The tally summarises all diagnostics; the calibrated dip certificate is the primary discriminator, and the 45-second AI bootstrap result qualifies partition stability.
