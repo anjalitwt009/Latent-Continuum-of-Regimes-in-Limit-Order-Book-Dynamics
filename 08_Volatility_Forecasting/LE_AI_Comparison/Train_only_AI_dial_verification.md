@@ -1,4 +1,4 @@
-# Step 7 AI dial leak check — clean (train-only basis) path
+# Step 7 AI dial leak check - clean (train-only basis) path
 
 AI dial basis (Karcher whitening + PC1 + standardization + VSTOXX orientation) refit on TRAIN rows only per walk-forward fold; AI geodesic velocity is basis-independent. Fixed OLS learner (isolates the feature-basis effect, not the learner). Target = 10-min forward RV.
 

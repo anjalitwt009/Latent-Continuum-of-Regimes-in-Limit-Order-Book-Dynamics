@@ -1,4 +1,4 @@
-# Step 5 stress-dial predictive — clean (train-only dial) path
+# Step 5 stress-dial predictive - clean (train-only dial) path
 
 Dial (standardization + PC1 + VSTOXX orientation) refit on TRAIN days only, then projected to test. First-half/second-half day split, per step5.predictive().
 

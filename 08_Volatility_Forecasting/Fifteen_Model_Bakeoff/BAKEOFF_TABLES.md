@@ -1,10 +1,10 @@
-# Fifteen-Model Intraday Bake-off — Result Tables
+# Fifteen-Model Intraday Bake-off - Result Tables
 
-**FESX (EURO STOXX 50 futures), 987 clean trading days, 2022–2025.** Purged/embargoed expanding-year walk-forward. For every covariance-duration (30/45/60 s) x forecast-horizon cell, all 15 learners are fit on the Step-6 covariance stress dial (PC1 of the affine-invariant whitened tangent) under two Riemannian metrics: **AI** (affine-invariant, headline) and **LE** (Log-Euclidean, diagnostic).
+**FESX (EURO STOXX 50 futures), 987 clean trading days, 2022-2025.** Purged/embargoed expanding-year walk-forward. For every covariance-duration (30/45/60 s) x forecast-horizon cell, all 15 learners are fit on the Step-6 covariance stress dial (PC1 of the affine-invariant whitened tangent) under two Riemannian metrics: **AI** (affine-invariant, headline) and **LE** (Log-Euclidean, diagnostic).
 
-- **test_r2** — out-of-sample R^2 (higher is better).
-- **qlike** — QLIKE variance loss (lower is better; robust to the volatility-of-volatility).
-- **dR2** — incremental OOS R^2 of the dial *over* a pure volatility-persistence baseline; **sig** = 95% bootstrap CI for dR2 clears 0.
+- **test_r2** - out-of-sample R^2 (higher is better).
+- **qlike** - QLIKE variance loss (lower is better; robust to the volatility-of-volatility).
+- **dR2** - incremental OOS R^2 of the dial *over* a pure volatility-persistence baseline; **sig** = 95% bootstrap CI for dR2 clears 0.
 
 Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 
@@ -14,10 +14,10 @@ Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 ## Covariance window Σ = 30s
 
 
-### 30s — metric AI (Affine-Invariant (headline))
+### 30s - metric AI (Affine-Invariant (headline))
 
 
-**Out-of-sample R² (test_r2) — model x horizon**
+**Out-of-sample R² (test_r2) - model x horizon**
 
 | model | nextwin | 30s | 45s | 60s | 2m | 5m | 10m | 15m | 30m | 1h |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -38,7 +38,7 @@ Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 | gp | 0.4667 | 0.4821 | 0.4657 | 0.5174 | 0.5729 | 0.6172 | 0.5806 | 0.5636 | 0.5460 | 0.4587 |
 
 
-**QLIKE (variance loss, lower = better) — model x horizon**
+**QLIKE (variance loss, lower = better) - model x horizon**
 
 | model | nextwin | 30s | 45s | 60s | 2m | 5m | 10m | 15m | 30m | 1h |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -59,7 +59,7 @@ Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 | gp | 0.5114 | 0.5429 | 0.4922 | 0.3688 | 0.3238 | 0.2526 | 0.2408 | 0.2366 | 0.2315 | 0.2516 |
 
 
-**Incremental ΔR² over volatility persistence — model x horizon**
+**Incremental ΔR² over volatility persistence - model x horizon**
 
 | model | nextwin | 30s | 45s | 60s | 2m | 5m | 10m | 15m | 30m | 1h |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -81,10 +81,10 @@ Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 
 
 
-### 30s — metric LE (Log-Euclidean (diagnostic))
+### 30s - metric LE (Log-Euclidean (diagnostic))
 
 
-**Out-of-sample R² (test_r2) — model x horizon**
+**Out-of-sample R² (test_r2) - model x horizon**
 
 | model | nextwin | 30s | 45s | 60s | 2m | 5m | 10m | 15m | 30m | 1h |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -105,7 +105,7 @@ Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 | gp | 0.4621 | 0.4857 | 0.4675 | 0.5190 | 0.5799 | 0.6249 | 0.5778 | 0.5656 | 0.5480 | 0.4570 |
 
 
-**QLIKE (variance loss, lower = better) — model x horizon**
+**QLIKE (variance loss, lower = better) - model x horizon**
 
 | model | nextwin | 30s | 45s | 60s | 2m | 5m | 10m | 15m | 30m | 1h |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -126,7 +126,7 @@ Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 | gp | 0.4971 | 0.5481 | 0.4798 | 0.3717 | 0.3203 | 0.2509 | 0.2402 | 0.2353 | 0.2300 | 0.2508 |
 
 
-**Incremental ΔR² over volatility persistence — model x horizon**
+**Incremental ΔR² over volatility persistence - model x horizon**
 
 | model | nextwin | 30s | 45s | 60s | 2m | 5m | 10m | 15m | 30m | 1h |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -153,10 +153,10 @@ Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 ## Covariance window Σ = 45s
 
 
-### 45s — metric AI (Affine-Invariant (headline))
+### 45s - metric AI (Affine-Invariant (headline))
 
 
-**Out-of-sample R² (test_r2) — model x horizon**
+**Out-of-sample R² (test_r2) - model x horizon**
 
 | model | nextwin | 30s | 45s | 60s | 2m | 5m | 10m | 15m | 30m | 1h |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -177,7 +177,7 @@ Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 | gp | 0.5422 |  | 0.5570 | 0.5604 | 0.5918 | 0.6483 | 0.6622 | 0.6522 | 0.6154 | 0.5241 |
 
 
-**QLIKE (variance loss, lower = better) — model x horizon**
+**QLIKE (variance loss, lower = better) - model x horizon**
 
 | model | nextwin | 30s | 45s | 60s | 2m | 5m | 10m | 15m | 30m | 1h |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -198,7 +198,7 @@ Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 | gp | 0.3987 |  | 0.3864 | 0.3863 | 0.3294 | 0.2485 | 0.2095 | 0.1998 | 0.2033 | 0.2260 |
 
 
-**Incremental ΔR² over volatility persistence — model x horizon**
+**Incremental ΔR² over volatility persistence - model x horizon**
 
 | model | nextwin | 30s | 45s | 60s | 2m | 5m | 10m | 15m | 30m | 1h |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -220,10 +220,10 @@ Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 
 
 
-### 45s — metric LE (Log-Euclidean (diagnostic))
+### 45s - metric LE (Log-Euclidean (diagnostic))
 
 
-**Out-of-sample R² (test_r2) — model x horizon**
+**Out-of-sample R² (test_r2) - model x horizon**
 
 | model | nextwin | 30s | 45s | 60s | 2m | 5m | 10m | 15m | 30m | 1h |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -244,7 +244,7 @@ Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 | gp | 0.5385 |  | 0.5606 | 0.5671 | 0.5849 | 0.6481 | 0.6730 | 0.6535 | 0.6211 | 0.5239 |
 
 
-**QLIKE (variance loss, lower = better) — model x horizon**
+**QLIKE (variance loss, lower = better) - model x horizon**
 
 | model | nextwin | 30s | 45s | 60s | 2m | 5m | 10m | 15m | 30m | 1h |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -265,7 +265,7 @@ Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 | gp | 0.4096 |  | 0.3788 | 0.3836 | 0.3346 | 0.2418 | 0.2050 | 0.1963 | 0.2013 | 0.2254 |
 
 
-**Incremental ΔR² over volatility persistence — model x horizon**
+**Incremental ΔR² over volatility persistence - model x horizon**
 
 | model | nextwin | 30s | 45s | 60s | 2m | 5m | 10m | 15m | 30m | 1h |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -292,10 +292,10 @@ Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 ## Covariance window Σ = 60s
 
 
-### 60s — metric AI (Affine-Invariant (headline))
+### 60s - metric AI (Affine-Invariant (headline))
 
 
-**Out-of-sample R² (test_r2) — model x horizon**
+**Out-of-sample R² (test_r2) - model x horizon**
 
 | model | nextwin | 30s | 45s | 60s | 2m | 5m | 10m | 15m | 30m | 1h |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -316,7 +316,7 @@ Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 | gp | 0.6093 |  |  | 0.6027 | 0.6423 | 0.6909 | 0.6873 | 0.6880 | 0.6078 | 0.5828 |
 
 
-**QLIKE (variance loss, lower = better) — model x horizon**
+**QLIKE (variance loss, lower = better) - model x horizon**
 
 | model | nextwin | 30s | 45s | 60s | 2m | 5m | 10m | 15m | 30m | 1h |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -337,7 +337,7 @@ Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 | gp | 0.3654 |  |  | 0.3555 | 0.2962 | 0.2183 | 0.1951 | 0.1832 | 0.2036 | 0.2029 |
 
 
-**Incremental ΔR² over volatility persistence — model x horizon**
+**Incremental ΔR² over volatility persistence - model x horizon**
 
 | model | nextwin | 30s | 45s | 60s | 2m | 5m | 10m | 15m | 30m | 1h |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -359,10 +359,10 @@ Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 
 
 
-### 60s — metric LE (Log-Euclidean (diagnostic))
+### 60s - metric LE (Log-Euclidean (diagnostic))
 
 
-**Out-of-sample R² (test_r2) — model x horizon**
+**Out-of-sample R² (test_r2) - model x horizon**
 
 | model | nextwin | 30s | 45s | 60s | 2m | 5m | 10m | 15m | 30m | 1h |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -383,7 +383,7 @@ Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 | gp | 0.6119 |  |  | 0.6026 | 0.6464 | 0.6943 | 0.6906 | 0.6781 | 0.6026 | 0.5868 |
 
 
-**QLIKE (variance loss, lower = better) — model x horizon**
+**QLIKE (variance loss, lower = better) - model x horizon**
 
 | model | nextwin | 30s | 45s | 60s | 2m | 5m | 10m | 15m | 30m | 1h |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -404,7 +404,7 @@ Horizon order: nextwin, 30s, 45s, 60s, 2m, 5m, 10m, 15m, 30m, 1h.
 | gp | 0.3618 |  |  | 0.3463 | 0.2959 | 0.2167 | 0.1914 | 0.1825 | 0.2049 | 0.2008 |
 
 
-**Incremental ΔR² over volatility persistence — model x horizon**
+**Incremental ΔR² over volatility persistence - model x horizon**
 
 | model | nextwin | 30s | 45s | 60s | 2m | 5m | 10m | 15m | 30m | 1h |
 |---|---|---|---|---|---|---|---|---|---|---|

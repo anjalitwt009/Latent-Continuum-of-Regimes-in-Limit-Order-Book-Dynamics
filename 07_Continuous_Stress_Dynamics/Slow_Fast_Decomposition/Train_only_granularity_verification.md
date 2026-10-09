@@ -1,4 +1,4 @@
-# Step 6 granularity — clean (train-only per-fold) path
+# Step 6 granularity - clean (train-only per-fold) path
 
 Axis + standardization + VSTOXX orientation refit on TRAIN only per walk-forward fold (`build_coords(mask_train=tr)`), i.e. no full-sample dial. Pooled ΔR² over the expanding-year walk-forward.
 

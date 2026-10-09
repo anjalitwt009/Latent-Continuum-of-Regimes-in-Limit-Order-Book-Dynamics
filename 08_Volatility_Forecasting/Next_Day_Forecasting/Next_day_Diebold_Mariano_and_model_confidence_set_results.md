@@ -3,7 +3,7 @@
 | Duration seconds | Metric | Model | DM t | DM p | Better | MCS90 |
 | --- | --- | --- | --- | --- | --- | --- |
 | All | Shared | Persistence | 5.944 | <.001 | HAR | No |
-| All | Shared | HAR | — | — | Reference | No |
+| All | Shared | HAR | - | - | Reference | No |
 | All | Shared | LOB | 7.515 | <.001 | HAR | No |
 | All | Shared | HAR+LOB | −2.196 | .0284 | Model | Yes |
 | 30 | LE | Regime | 18.403 | <.001 | HAR | No |

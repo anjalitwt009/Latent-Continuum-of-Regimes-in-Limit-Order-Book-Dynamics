@@ -1,6 +1,6 @@
 # Annual external validity and detector skill
 
-| Duration | Year | Correlation dial–VSTOXX | BOCPD F1 | Riemann LE F1 |
+| Duration | Year | Correlation dial-VSTOXX | BOCPD F1 | Riemann LE F1 |
 | --- | --- | --- | --- | --- |
 | 30 | 2022 | 0.4265 | 0.357 | 0.262 |
 | 30 | 2023 | 0.4214 | 0.451 | 0.517 |

@@ -1,9 +1,9 @@
-# Next-Day Volatility Forecast — Ablation Tables
+# Next-Day Volatility Forecast - Ablation Tables
 
 **Does the covariance-regime dial beat HAR at the next-DAY horizon?** Target = next trading-day realized variance; purged walk-forward by year; embargo 1 day.
 
-- **r2** — OOS R²; **r2_vs_har** — R² difference vs the HAR benchmark; **qlike** lower = better.
-- **dm_vs_har_p** — Diebold–Mariano p vs HAR; **in_mcs** — survives the 90% Model Confidence Set.
+- **r2** - OOS R²; **r2_vs_har** - R² difference vs the HAR benchmark; **qlike** lower = better.
+- **dm_vs_har_p** - Diebold-Mariano p vs HAR; **in_mcs** - survives the 90% Model Confidence Set.
 
 
 ## Σ = 30s
